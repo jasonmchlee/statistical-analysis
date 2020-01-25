@@ -1,5 +1,17 @@
 # Fandango
 
+[RPubs Publication](http://rpubs.com/jasonmchlee/fandango)
+
+## Overview
+In October 2015, Walt Hickey from FiveThirtyEight published a popular article where he presented strong evidence which suggest that Fandango’s movie rating system was biased and dishonest.
+
+## Objective
+In this project, we’ll analyze more recent movie ratings data to determine whether there has been any change in Fandango’s rating system after Hickey’s analysis.
+
+## Results
+Our analysis showed that there’s indeed a slight difference between Fandango’s ratings for popular movies in 2015 and Fandango’s ratings for popular movies in 2016. We also determined that, on average, popular movies released in 2016 were rated lower on Fandango than popular movies released in 2015.
+
+## Dataset
 This directory contains the data behind the story [Be Suspicious Of Online Movie Ratings, Especially Fandango’s](http://fivethirtyeight.com/features/fandango-movies-ratings/).
 
 `fandango_score_comparison.csv` contains every film that has a Rotten Tomatoes rating, a RT User rating, a Metacritic score, a Metacritic User score, and IMDb score, and at least 30 fan reviews on Fandango. The data from Fandango was pulled on Aug. 24, 2015.
