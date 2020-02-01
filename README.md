@@ -10,4 +10,6 @@ Repository focused on statistical analysis and exploration used on various data 
 ## R
 - [Fandango Moive Ratings in R](http://rpubs.com/jasonmchlee/fandango)
 
-## SAS
+## SQL
+- [Chinook Music Store, Analysis](https://github.com/jasonmchlee/statistical-analysis/tree/master/Chinook%20(Music%20Store))
+- [CIA World Factbook](https://github.com/jasonmchlee/statistical-analysis/tree/master/CIA%20Factbook)
