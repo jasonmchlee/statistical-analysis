@@ -15,7 +15,7 @@ In statistical terms, we want our samples to be representative of their correspo
 
 To make our samples representative, we can try to give every individual in the population an equal chance to be selected in our samples. We want a very tall individual to have the same chance as being selected as an individual having a medium or short height. To give every individual an equal chance of being picked, we need to sample randomly - using a simple stratified sample.
 
- ( PICTURE)
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/simple%20random%20sample.png?raw=true)
  
 We can notice that the sample means vary a lot around the population mean. With a minimum sample mean of 115 points, a maximum of 301.4, and a population mean of roughly 201.8, we can tell that the sampling error is quite large for some of the cases.
 
@@ -42,10 +42,7 @@ For instance, we might end up with a sample where only 2% of the players played 
 
 One solution to this problem is to use stratified sampling while being mindful of the proportions in the population. We can stratify our data set by the number of games played, and then sample randomly from each stratum a proportional number of observations.
 
-
-
-(Pictrure)
-
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/stratified%20sample.png?raw=true)
 
 The variability of the sampling was quite large, and many sample means were unrepresentative, being far from the population mean. In fact, this sampling method doesn't seem to perform better than simple random sampling.
 
@@ -54,31 +51,42 @@ The poor performance is caused by a bad choice of strata. We stratified the data
 It makes more sense to stratify the data by number of minutes played, rather than by number of games played. The minutes played are a much better indicator of how much a player scored in a season than the number of games played.
 
 
-
 ## Frequency Distributions
 One way to simplify this data set is to select a variable, count how many times each unique value occurs, and represent the frequencies (the number of times a unique value occurs) in a table. This is how such a table looks for the POS (player position) variable.
 
 Because proportions and percentages are relative to the total number of instances in some set of data, they are called relative frequencies. In contrast, the frequencies we've been working with so far are called absolute frequencies because they are absolute counts and don't relate to the total number of instances.
 
 ### Position Frequency
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/position%20frequency.png?raw=true)
 
 ### Years of Experience
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/experience%20frequency.png?raw=true)
 
 ### Points Scored
 
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/points%20frequency.png?raw=true)
+
 ### Level of Experience
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/experience%20type%20frequency.png?raw=true)
+
+## Density Plots
+ ![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/denisty%20of%20age.png?raw=true)
+Each of the smoothed histograms above is called a kernel density estimate plot or, shorter, kernel density plot. Unlike histograms, kernel density plots display densities on the y-axis instead of frequencies. The density values are actually probability values — which we'll be able to understand more about after the probability courses.
+
+We can still observe that most of the old players that belong to the "average or above" category play significantly more than average. With the help of the vertical line, the pattern is very easy to notice. Because the graph looks much cleaner than the one with step-type histograms, we can easily argue that the pattern is much more obvious in the case of kernel density plots.
 
 
- ## Density Plots
- 
- ## Stripplots
- 
+## Stripplots
+
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/stripplot.png?raw=true)
+
 Patterns are now immediately visible. We can see on the graph that the shortest players are guards — in fact, all players under 180 cm are guards. The tallest players are centers — this is the only category with players above 2 meters. Among combined positions, we can see that F/C has slightly taller representatives — most likely because it requires center qualities (and we've seen that the tallest players are generally centers).
 
 
  ## Boxplots
- 
- 
+
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/WNBA/boxplot.png?raw=true) 
+
 The few dots we see for the box plots of centers and guards/forwards (G/F) represent values in the distribution that are much larger or much lower than the rest of the values. A value that is much lower or much larger than the rest of the values in a distribution is a outlier.
 
 
