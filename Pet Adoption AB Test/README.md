@@ -5,6 +5,8 @@ Currently the website has a static image of a cat on the home page. The cat is n
 
 For this experiment we will simply change the original cat photo, into a photo where the cat is smiling. Our hypothesis is "Changing the cat from a sad to happy photo will result in more people clicking on the "Adopt today" button".
 
+![](https://github.com/jasonmchlee/statistical-analysis/blob/master/Pet%20Adoption%20AB%20Test/landing_page.png)
+
 ## Building the Experiment
 When we look to create our control and test group we want to make sure we are accounting for factors such as seasonality. We see in our data that the summer would be when most conversion occurred.
 
