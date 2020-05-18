@@ -18,6 +18,7 @@ For example the conversions would be as follows if we were running it in:
 - July    - 33%
 - August  - 54%
 - October - 16%
+
 As we can see there is a lot of fluctuations in our current conversions so we will want to take into account - POWER ANALYSIS.
 
 ### Power
