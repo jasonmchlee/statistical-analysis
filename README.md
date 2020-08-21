@@ -8,6 +8,7 @@ Repository focused on statistical analysis and exploration used on various data 
 - [Lottery Addiction](https://github.com/jasonmchlee/statistical-analysis/tree/master/Lottery%20Addiction)
 - [Fandango Moive Ratings in Python](https://github.com/jasonmchlee/statistical-analysis/tree/master/Fandango%20Movie%20Ratings)
 - [Star Wars Characters](https://github.com/jasonmchlee/statistical-analysis/tree/master/Star%20Wars)
+- [Purchase A/B Testing](https://github.com/jasonmchlee/statistical-analysis/tree/master/Purchase%20-%20AB%20Testing)
 
 ## R
 - [Fandango Moive Ratings in R](http://rpubs.com/jasonmchlee/fandango)
